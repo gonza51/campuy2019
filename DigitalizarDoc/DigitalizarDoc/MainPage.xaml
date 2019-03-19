@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DigitalizarDoc"
+             x:Class="DigitalizarDoc.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:MainPageViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout BackgroundColor="{StaticResource BackgroundColor}" Padding="0,30,0,0" VerticalOptions="FillAndExpand">
+        
+        <!--Template-->
+        <Frame HasShadow="true" CornerRadius="8" Padding="5" BackgroundColor="{StaticResource CardBackgroundColor}" VerticalOptions="FillAndExpand">
+            <StackLayout>
+                <Image x:Name="image" />
+            </StackLayout>
+        </Frame>
+                    
+
+        <Button Text="TOMAR FOTO" BackgroundColor="{StaticResource GoldColor}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,30" x:Name="takePhoto"/>
+
+        <Button Text="PROCESAR" BackgroundColor="{StaticResource Color1}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,5" x:Name="uploadPhoto"/>
+        
+        <Button Text="CANCELAR" BackgroundColor="{StaticResource Color2}" TextColor="Black" FontAttributes="None" Margin="20,0,20,2" x:Name="repeatPhoto"/>
+        
+    </StackLayout>
+</ContentPage>

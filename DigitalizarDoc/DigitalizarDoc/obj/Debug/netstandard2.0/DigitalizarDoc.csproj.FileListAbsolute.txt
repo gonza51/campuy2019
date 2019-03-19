@@ -1,0 +1,14 @@
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\bin\Debug\netstandard2.0\DigitalizarDoc.deps.json
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\bin\Debug\netstandard2.0\DigitalizarDoc.dll
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\bin\Debug\netstandard2.0\DigitalizarDoc.pdb
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\Views\CaptureDoc.xaml.g.cs
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\Views\CustomNavigationPage.xaml.g.cs
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\DigitalizarDoc.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\DigitalizarDoc.AssemblyInfoInputs.cache
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\DigitalizarDoc.AssemblyInfo.cs
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\DigitalizarDoc.dll
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\DigitalizarDoc.pdb
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Bruno\Desktop\DigitalizarDoc\DigitalizarDoc\DigitalizarDoc\obj\Debug\netstandard2.0\Views\ResultPage.xaml.g.cs

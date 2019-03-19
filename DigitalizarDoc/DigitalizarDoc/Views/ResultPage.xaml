@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DigitalizarDoc"
+             x:Class="DigitalizarDoc.ResultPage">
+
+
+    <ContentPage.BindingContext>
+        <local:ResponseViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <StackLayout  BackgroundColor="White" Padding="10,30,10,0" VerticalOptions="FillAndExpand">
+
+       
+
+            <Label Text="Datos procesados - Editar si son incorrectos"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large" TextColor="Black"/>
+
+
+        <Frame BorderColor="{StaticResource ColorScremini}" CornerRadius="8">
+            <StackLayout>
+                <Label Text="NOMBRE"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" TextColor="{StaticResource ColorScremini}" Margin="0,-10,0,0"/>
+
+                <Editor Text="{Binding ResponseData.Name}" />
+            </StackLayout>
+        </Frame>
+
+
+        <Frame BorderColor="{StaticResource ColorScremini}" CornerRadius="8">
+            <StackLayout>
+                <Label Text="DOCUMENTO"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"  TextColor="{StaticResource ColorScremini}" Margin="0,-10,0,0"/>
+
+                <Editor Text="{Binding ResponseData.Document}" />
+            </StackLayout>
+        </Frame>
+
+        <Frame BorderColor="{StaticResource ColorScremini}" CornerRadius="8">
+            <StackLayout>
+                <Label Text="TELEFONO"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"  TextColor="{StaticResource ColorScremini}" Margin="0,-10,0,0"/>
+
+                <Editor Text="{Binding ResponseData.Phone}" />
+            </StackLayout>
+        </Frame>
+
+        <Frame BorderColor="{StaticResource ColorScremini}" CornerRadius="8">
+            <StackLayout>
+                <Label Text="E-MAIL"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"  TextColor="{StaticResource ColorScremini}" Margin="0,-10,0,0"/>
+
+                <Editor Text="{Binding ResponseData.Email}" />
+            </StackLayout>
+        </Frame>
+
+        <Frame BorderColor="{StaticResource ColorScremini}" CornerRadius="8">
+            <StackLayout>
+                <Label Text="ID INFO"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" TextColor="{StaticResource ColorScremini}" Margin="0,-10,0,0"/>
+
+                <Editor Text="{Binding ResponseData.ID}" />
+            </StackLayout>
+        </Frame>
+
+        <Button Text="GUARDAR" BackgroundColor="{StaticResource Color1}" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,5" x:Name="saveData" Command="{Binding SaveCommand}"/>
+
+            
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
